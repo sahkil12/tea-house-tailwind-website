@@ -7,25 +7,48 @@
   <title>Tea House Tailwind Website</title>
   <!-- icons -->
   <script src="https://kit.fontawesome.com/960946f225.js" crossorigin="anonymous"></script>
-<!-- tailwind -->
+  <!-- tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
-<!-- fonts -->
+  <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
   <style>
-    
-.manrope-font {
-  font-family: "Manrope", sans-serif;
-}
-
+    .manrope-font {
+      font-family: "Manrope", sans-serif;
+    }
   </style>
 
 </head>
 
-<body>
-  <header>
+<body class="manrope-font" >
+  <header class="max-w-screen-xl mx-auto lg:flex lg:mt-14 sm:mt-4 sm:pl-2">
+    <div>
+      <h1 class="lg:text-[80px] sm:text-4xl text-[#1C1C1C] font-bold">
+        It's good <br>
+        tea time at The <br>
+         Tea House
+      </h1>
+      <p class="text-lg text-gray-500 w-3/4 mt-5">Tea and Botanical Solutions Supplier Give Optimum
+        Satisfaction To Your Taste Buds.</p>
+
+       <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-xl px-5 py-[18px] text-xl text-white  mt-7 sm:px-4 sm:py-3 sm:text-sm">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+    </div>
+
+    <div class="relative" >
+      <img class="w-full" src="images/banner.png" alt="">
+<!-- box -->
+      <div class="flex items-center py-4 px-5 rounded-xl shadow-lg absolute bg-white lg:bottom-20 left-24 sm:bottom-9 sm:left-24">
+      <div class="mr-3 text-yellow-400 text-3xl"><i class="fa-solid fa-star"></i></div>
+        <div>
+          <h2 class="lg:text-2xl font-bold">5.00</h2>
+          <p class="text-gray-500">Trust Pilot Ratings</p>
+        </div>
+      </div>
+
+    </div>
+   
 
   </header>
 
